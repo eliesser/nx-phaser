@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-phaser/phaser": ["libs/shared/src/index.ts"],
+      "@nx-phaser/phaser/services": ["libs/shared/src/lib/phaser/core/services"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

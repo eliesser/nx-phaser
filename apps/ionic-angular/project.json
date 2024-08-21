@@ -17,6 +17,7 @@
         "tsConfig": "apps/ionic-angular/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
+          "apps/ionic-angular/src/assets",
           {
             "glob": "**/*",
             "input": "apps/ionic-angular/public"
